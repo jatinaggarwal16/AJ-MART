@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AJ MART</title>
+
+    <link rel="icon" type="image/icon" href="images/favicon.PNG">
+
+    <!-- CODE FOR FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CODE FOR FONT AWESOME CDN-->
+
+    <!-- CODE FOR LINKING CSS FILE-->
+    <link rel="stylesheet" href="style.css">
+    <!-- CODE FOR LINKING CSS FILE-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- HEADER SECTION-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> Grocery </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="text" id="search-box" placeholder="Search Here ....">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/tatasalt.png">
+                <div class="content">
+                    <h3>Tata Salt</h3>
+                    <span class="price">₹26/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/atta.png">
+                <div class="content">
+                    <h3>Aashirwaad Atta</h3>
+                    <span class="price">₹410/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/refined.png">
+                <div class="content">
+                    <h3>Fortune Refined</h3>
+                    <span class="price">₹135/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total"> total : ₹571/-</div>
+            <a href="#" class="btn">Checkout</a>
+
+        </div>
+
+
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter email" class="box">
+            <input type="password" placeholder="Enter Password" class="box">
+
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+            <input type="submit" value="login" class="btn">
+        </form>
+
+    </header>
+    <!-- HEADER SECTION-->
+
+
+    <!-- BANNER SECTION-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>High Quality <span>Grocery</span> Products For You</h3>
+            <p>Welcome to our grocery platform, your one-stop destination for <br>high-quality products at wholesale
+                prices!</p>
+
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+    <!-- BANNER SECTION-->
+
+    <!-- OUR FEATURE SECTION-->
+
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/grocery-graphic.png" width="235px" height="149px">
+                <h3>Good Quality</h3>
+                <p>we provide you the high quality product at lower price</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/feature-img-2.png">
+                <h3>Fast Delivery</h3>
+                <p>we ensure to delivery your order on time</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <img src="images/feature-img-3.png">
+                <h3>Secure Payment</h3>
+                <p>Our Website will ensure that your payment will be done safely</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- OUR FEATURE SECTION-->
+
+    <!-- OUR PRODUCTS SECTION-->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="product-list">
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="images/atta.png">
+                        <h1>Aashirwaad Atta</h1>
+                        <div class="price">₹410/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/refined.png">
+                        <h1>Fortune Refined</h1>
+                        <div class="price">₹145/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-hollow"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/tatasalt.png">
+                        <h1>Tata Salt</h1>
+                        <div class="price">₹28/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="images/sugar.png">
+                        <h1>Aashirwaad Atta</h1>
+                        <div class="price">₹410/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/dettol.png">
+                    <h1>Dettol Soap</h1>
+                    <div class="price">₹150/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/turmeric.png">
+                    <h1>Catch Haldi</h1>
+                    <div class="price">₹35/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-hollow"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/tea.png">
+                    <h1>Agni Tea</h1>
+                    <div class="price">₹50/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/coke.png">
+                    <h1>Cocal Cola</h1>
+                    <div class="price">₹80/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- OUR PRODUCTS SECTION-->
+
+
+    <!-- OUR CATEGORIES SECTION-->
+
+    <section class="categories" id="categories">
+        <h1 class="heading"> Product <span> categories </span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/beverages.png">
+                <h3>Beverages</h3>
+                <p>Upto 30% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/spices.png">
+                <h3>Spices</h3>
+                <p>Upto 50% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/dryfruits.png">
+                <h3>Dry Fruits</h3>
+                <p>Upto 60% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/toothpaste.png">
+                <h3>Toothpaste</h3>
+                <p>Upto 25% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- OUR CATEGORY SECTION-->
+
+    <!-- OUR REVIEW SECTION-->
+
+    <section class="review" id="review">
+        <h1 class="heading"> Customer's <span> review </span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/pic-1.png">
+                    <p>"I’ve been using this grocery website for a few months now, and I’m super impressed! The
+                        selection is fantastic, with a great variety of organic and local products. The layout is
+                        user-friendly, making it easy to find what I need. Plus, the delivery has always been on time
+                        and the groceries arrive fresh. Highly recommend for busy families!"</p>
+                    <h3>Jatin</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-2.png">
+                    <p>"This site has changed the way I shop for groceries. I love the convenience of online ordering,
+                        especially the ability to schedule deliveries. The prices are competitive, and I often find
+                        great deals. The only reason I’m giving it four stars instead of five is that sometimes my
+                        preferred items are out of stock. Overall, a great experience</p>
+                    <h3>Sarah</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-3.png">
+                    <p>I can’t say enough good things about this grocery website! The customer service is exceptional;
+                        they helped me resolve a mix-up with my order promptly. I also appreciate the detailed product
+                        descriptions and nutritional information. The subscription service for staples has saved me so
+                        much time. Definitely my go-to grocery source now</p>
+                    <h3>Anshul</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-4.png">
+                    <p>I found this grocery website to be pretty good, but I think there’s room for improvement. While
+                        they have a wide selection and decent prices, my last delivery was a bit late, and a couple of
+                        items were substituted without notice. The quality of the produce was excellent, though, so I’m
+                        willing to give it another try. Hoping for a smoother experience next time</p>
+                    <h3>Jessica</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR REVIEW SECTION-->
+
+    <!-- OUR BLOG SECTION-->
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> Our <span> Blogs </span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/blog1.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> By Jatin </a>
+                        <a href="#"><i class="fa fa-calendar"></i> 1-Nov-2024</a>
+                    </div>
+                    <h3>Fresh and Organic Dry Fruits</h3>
+                    <p>Discover the wholesome goodness of our fresh dry fruits! Packed with essential nutrients</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog2.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> By Anshul </a>
+                        <a href="#"><i class="fa fa-calendar"></i> 2-Nov-2024</a>
+                    </div>
+                    <h3>Organic Spices</h3>
+                    <p>Sourced from the finest growers, these spices are free from pesticides and artificial additives,
+                        ensuring pure, vibrant flavors</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog3.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> By Ansh </a>
+                        <a href="#"><i class="fa fa-calendar"></i> 3-Nov-2024</a>
+                    </div>
+                    <h3>Fresh and Organic Legumes/Pulses</h3>
+                    <p>Fuel your meals with our nutritious organic pulses! Packed with protein, fiber, and essential
+                        nutrient</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OUR BLOG SECTION-->
+
+    <!-- OUR FOOTER SECTION-->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>AJ MART <i class="fa fa-shopping-basket"></i></h3>
+                <p>feel free to follow us on our social media handles. all the links given below</p>
+
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i> 9876543210</a>
+                <a href="#" class="links"><i class="fa fa-envelope"></i> info@gmail.com</a>
+                <a href="#" class="links"><i class="fa fa-map-marker"></i> Mohali,India</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Products</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Review</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for Latest Updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="images/payment.png" class="payment-img">
+            </div>
+
+        </div>
+
+        <div class="credit">Created By <span>Jatin Aggarwal</span> | All Right Reserved</div>
+    </section>
+
+    <!-- OUR FOOTER SECTION-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
